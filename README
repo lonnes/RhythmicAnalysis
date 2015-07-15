@@ -1,0 +1,32 @@
+=========================================
+
+      Beat and downbeat estimation 
+       based on pattern tracking
+
+=========================================
+
+CONTENTS
+
+  - pattern_track.py : 
+	python application for beat and downbeat tracking
+  - ra folder : 
+	rhythm analysis python package
+  - examples : 
+	synthetic audio examples with annotated beat and downbeat for testing
+	(annotations in csv files)
+
+DEPENDENCIES
+
+The current code depends on the following Python packages (all available in pip):
+   - Numpy/Scipy
+   - Matplotlib
+
+USAGE
+
+> python pattern_track.py -v examples/filename.wav
+
+OUTPUT
+
+- filename_beats.csv     : beat estimations
+- filename_downbeats.csv : downbeat estimations
+
